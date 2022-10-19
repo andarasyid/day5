@@ -1,0 +1,182 @@
+nav {
+    background-color: rgb(18, 150, 190);
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    background-color: white;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+
+nav ul li {
+    margin-right: 15px;
+    color: black;
+}
+
+nav ul li img {
+    width: 75px;
+    border-radius: 50px;
+
+}
+
+div a {
+    font-size: 25px;
+}
+
+.nav-left {
+    flex: 50%;
+}
+
+.nav-right {
+    flex: 50%;
+    text-align: end;
+    margin-right: 30px;
+}
+
+.nav-right a {
+    background-color: black;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 15px;
+}
+
+.blog-form {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    margin: auto;
+    
+  
+}
+
+.blog-form .form-container {
+    width: 500px;
+    display: flex;
+    
+    
+   
+}
+.blog-form .form-container h1 {
+    text-align: center;
+}
+.blog-form form label {
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.projectname {
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+}
+   
+
+.startdate {
+    position: relative;
+    top: 20;
+    right: 84;
+    line-height: 1.5;
+    width: 230;
+    border-radius: 3px;
+    border: none;
+}
+
+.enddate {
+    position: relative;
+    top: -13;
+    left: 250;
+    line-height: 1.5;
+    width: 250;
+    border-radius: 3px;
+    border: none;
+    
+}
+
+.dateend {
+    position: relative;
+    right: 65;
+    border-radius: 3px;
+    
+}
+
+
+
+.blog-form form textarea {
+
+    width: 100%;
+    border: none;
+    resize: none;
+    
+    
+    
+}
+
+.uploadimage {
+    
+background-color: white;
+    width: 100%;
+}
+button {
+    float: right;
+    
+    margin-right: 0;
+    background-color: black;
+    border-radius: 200px;
+    padding: 10px 10px;
+    border: none;
+    margin-top: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    
+    
+}
+input[type=checkbox]{
+    width: auto;
+    height: auto;
+    font-family: sans-serif;
+    margin:5px 10px;
+    
+}
+
+.blog-form form input, text area, table, button {
+    margin-top: 10px;
+}
+
+.input-image {
+    margin-top: 10px; 
+}
+
+.project-list {
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-list .project-list-item {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: solid black;
+    border-radius: 10px;
+    display: flex;
+}
+
+.project-list .project-list-item .project-img {
+    flex: 1;
+
+}
+
+
+
+

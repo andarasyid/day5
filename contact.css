@@ -1,0 +1,110 @@
+form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 10px;
+    
+    
+}
+form div{
+    margin-top: 15px;
+}
+
+label {
+    font-weight: bold;
+    font-size: large;
+}
+
+input, select, textarea {
+    border: 1px solid whitesmoke;
+    background-color: white;
+    width: 100%;
+    resize: none;
+    padding: 5;
+    margin-top: 5;
+    border-radius: 10px;
+
+}
+
+button {
+    float: right;
+    margin-right: 0;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white    ;
+}
+
+select {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+}
+
+* {
+    text-decoration: none;
+}
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(18, 150, 190);
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    background-color: white;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+
+nav ul li {
+    margin-right: 15px;
+    color: black;
+}
+
+nav ul li img {
+    width: 75px;
+    border-radius: 50px;
+
+}
+
+div a {
+    font-size: 25px;
+}
+
+.nav-left {
+    flex: 50%;
+}
+
+.nav-right {
+    flex: 50%;
+    text-align: end;
+    margin-right: 30px;
+}
+
+.nav-right a {
+    background-color: black;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 15px;
+}
+
+P {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}

@@ -1,0 +1,60 @@
+<html style="background-color: whitesmoke;">
+    <head>      
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body> 
+     
+        <nav>
+            <div class="nav-left">
+                <ul>
+                    <li><a href=""><img src="./sumber-indonesianfilmcentercom.png" alt=""></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="myproject.html">MyProject</a></li>
+                </ul>
+        </div>
+            <div class="nav-right">
+               <a href="contactform.html">Contact Me</a>
+            </div>
+        </nav>
+        <P> GET IN TOUCH</P>
+
+    <form>
+        
+        <div>
+                <label for="input-name">Name</label>
+                <input type="text" id="input-name" required>
+            </div>
+            <div>
+                <label for="input-email">Email</label>
+                <input type="text" id="input-email" required>
+        </div>
+        <div>
+            <label for="input-phone">Phone Number</label>
+            <input type="number" id="input-phone"required>
+        </div>
+        <div>
+            <label for="input-company">Company</label>
+            <input type="text" id="input-company" required>
+        </div>
+        <div>
+            <label for="input-subject">Subject</label>
+            <select id="input-subject" required>
+                <option value="hidden"></option>
+                <option>ayam</option>
+                <option>koala</option>
+                <option>kunyuk</option>
+            </select>
+        </div>
+        <div>
+            <label for="input-message">Your Message</label>
+            <textarea rows="5" cols="10" id="input-message"></textarea>
+        </div>
+        <div>
+            <button type="button" onclick="showData()">Submit</button>
+        </div>
+    </form>
+
+    </body>
+    <script src="form.js"></script>
+</html>
